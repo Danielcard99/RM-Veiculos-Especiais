@@ -9,10 +9,10 @@
     <meta name="author" content="Daniel cardoso" />
     <title>RM Veículos Especiais - Home</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +32,7 @@
             <li><a style="color: #eb2d2d" href="index.html">Home</a></li>
             <li><a href="venda.html">Venda</a></li>
             <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a goto="contato" href="">Contato</a></li>
           </ul>
         </nav><!--desktop-->
 
@@ -41,7 +41,7 @@
             <li><a style="color: #eb2d2d" href="index.html">Home</a></li>
             <li><a href="venda.html">Venda</a></li>
             <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a goto="contato" href="">Contato</a></li>
           </ul>
         </nav><!--mobile-->
         <div class="clear"></div><!--clear-->
@@ -138,18 +138,20 @@
             toda comodidade e conforto no almoço, no transfer, na visita ao
             veículo e durante o test-drive”
           </p>
+          <p>“Outro Depoimento”</p>
           <div class="navigation">
             <div class="arrows">
-              <img src="image/arrow-left.png" />
-              <img src="image/arrow-right.png" />
+              <img prev src="image/arrow-left.png" />
+              <img next src="image/arrow-right.png" />
             </div><!--arrows-->
             <div class="nome-depoimento">Gustavo Teixeira - Colecionador</div><!--nome-depoimento-->
           </div><!--navigation-->
         </div><!--depoimentos-single-->
-      </div><!--half2-->
+      </div>
+      <!--half2-->
     </section><!--servicos-descricao-->
 
-    <section class="contato">
+    <section id="contato" class="contato">
       <div class="line-titulo">
         <div class="ln1"></div><!--ln1---->
         <h2>Entre em Contato</h2>
@@ -185,12 +187,14 @@
             <li><a style="color: #eb2d2d" href="index.html">Home</a></li>
             <li><a href="venda.html">Venda</a></li>
             <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a goto="contato" href="">Contato</a></li>
           </ul>
         </nav>
         <p>Todos os direitos reservados a RM Veículos Especiais</p>
         <div class="clear"></div><!--clear-->
       </div><!--container-->
     </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
   </body>
 </html>

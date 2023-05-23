@@ -9,10 +9,10 @@
     <meta name="author" content="Daniel cardoso" />
     <title>RM Veículos Especiais</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,7 +32,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a style="color: #eb2d2d" href="venda.html">Venda</a></li>
             <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a goto="contato" href="">Contato</a></li>
           </ul>
         </nav><!--desktop-->
 
@@ -41,7 +41,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a style="color: #eb2d2d" href="venda.html">Venda</a></li>
             <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a goto="contato" href="">Contato</a></li>
           </ul>
         </nav><!--mobile-->
         <div class="clear"></div><!--clear-->
@@ -61,19 +61,27 @@
             <span>></span>
             <a href="">VEÍCULO DE TESTE</a>
           </div>
-          <div
-            style="background-image: url(image/carro1.jpg)"
-            class="foto-destaque"
-          ></div><!--foto-destaque-->
+          <div class="foto-destaque"></div><!--foto-destaque-->
           <div class="nav-galeria-parent">
             <div class="arrow-left-nav"></div>
             <div class="arrow-right-nav"></div>
             <div class="nav-galeria">
               <div class="nav-galeria-wraper">
-                <div
-                style="background-color: rgb(210, 210, 210);" class="mini-img-wraper">
+                <div class="mini-img-wraper">
                   <div
                     style="background-image: url(image/carro1.jpg)"
+                    class="mini-img"
+                  ></div><!--mini-img-->
+                </div><!--mini-img-wraper-->
+                <div class="mini-img-wraper">
+                  <div
+                    style="background-image: url(image/carro2.jpg)"
+                    class="mini-img"
+                  ></div><!--mini-img-->
+                </div><!--mini-img-wraper-->
+                <div class="mini-img-wraper">
+                  <div
+                    style="background-image: url(image/carro3.jpg)"
                     class="mini-img"
                   ></div><!--mini-img-->
                 </div><!--mini-img-wraper-->
@@ -85,25 +93,13 @@
                 </div><!--mini-img-wraper-->
                 <div class="mini-img-wraper">
                   <div
-                    style="background-image: url(image/carro1.jpg)"
+                    style="background-image: url(image/carro2.jpg)"
                     class="mini-img"
                   ></div><!--mini-img-->
                 </div><!--mini-img-wraper-->
                 <div class="mini-img-wraper">
                   <div
-                    style="background-image: url(image/carro1.jpg)"
-                    class="mini-img"
-                  ></div><!--mini-img-->
-                </div><!--mini-img-wraper-->
-                <div class="mini-img-wraper">
-                  <div
-                    style="background-image: url(image/carro1.jpg)"
-                    class="mini-img"
-                  ></div><!--mini-img-->
-                </div><!--mini-img-wraper-->
-                <div class="mini-img-wraper">
-                  <div
-                    style="background-image: url(image/carro1.jpg)"
+                    style="background-image: url(image/carro3.jpg)"
                     class="mini-img"
                   ></div><!--mini-img-->
                 </div><!--mini-img-wraper-->
@@ -208,19 +204,21 @@
       </div><!--container-->
     </section><!--veiculos-em-destaque-->
 
-    <footer style="border-top: 5px solid #eb2d2d;">
+    <footer style="border-top: 5px solid #eb2d2d">
       <div class="container">
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a style="color: #eb2d2d" href="venda.html">Venda</a></li>
             <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a goto="contato" href="">Contato</a></li>
           </ul>
         </nav>
         <p>Todos os direitos reservados a RM Veículos Especiais</p>
         <div class="clear"></div><!--clear-->
       </div><!--container-->
     </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
   </body>
 </html>

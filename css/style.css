@@ -633,14 +633,9 @@ section.venda-single .container {
   width: 100%;
 }
 
-.nav-galeria-wraper {
-  width: 200%;
-}
-
 .mini-img-wraper {
   float: left;
   padding: 9px;
-  width: calc(33.3% * (100 / 200));
 }
 
 .mini-img {
