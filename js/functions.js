@@ -132,7 +132,7 @@ $(function () {
     $(".mini-img-wraper").eq(0).click();
   }
 
-  var directory = "/projeto-05/";
+  var directory = "/Danielcard99/RM-Veiculos-Especiais/";
 
   $("[goto=contato]").click(function () {
     location.href = directory + "index.html?contato";
